@@ -1,53 +1,122 @@
 <!-- contact me page, include formspree.io form -->
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Heavenly Medina's Site</title>
 
-<html>
+    <link rel="stylesheet" href="../styles.css"/>
+    <style>
+    </style>
+    
+    <link href="assets/style.css"
+    type="text/css"
+    rel="stylesheet"> 
 
-    <head> <meta charset="utf-8">
-        <title>Contact Me!</title>
-        <style>
-         table, th, td {
-            border: 1px solid black;
-         }
-      </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icon/site.webmanifest">
+    <link rel="mask-icon" href="assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-      <link href="assets/style.css"
-      type="text/css"
-      rel="stylesheet">
+  <body>
+    <header>
+      <div class="title">Heavenly Medina</div>
+      <br>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About Me</a>
+          </li>
+          <li>
+            <a href="contactme.html">Contact Me</a>
+          </li>
+          <li>
+            <a href="projects.html">Things I've done</a>
+          </li>
 
-    </head>
+        </ul>
+      </nav>
+
+    </header>
     
     <body>
         <a id="top" name="top"></a>
-        <h1><a href="https://formspree.io/">Formspree.io</a> Assignment</h1>
+        <h1><a href="https://formspree.io/">Contact Me</a></h1>
 	<br>
 
 	<!-- modify this form HTML and place wherever you want your form -->
 
-<form action="https://formspree.io/f/moqpobqy" method="POST">
-  <label>
-    Email:
-    <input type="text" name="_replyto">
-  </label>
-  <br>
-  <br>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-  <br>
-  <br>
-  <!-- your other form fields go here -->
+    <ul class="cards">
+        <li>
+          <!-- <h2>Card One</h2> -->
+          <div class="inner">
 
-  <button type="submit">Send</button>
-</form>
+            <form action="https://formspree.io/f/moqpobqy" method="POST">
+            <label>
+                Email:
+                
+            </label>
+            <br>
+            <input type="text" name="_replyto">
+            <br>
+            <br>
+            <label>
+                Message:
+                
+            </label>
+            <br>
+            <textarea name="message"></textarea>
+            <br>
+            <br>
+            <!-- your other form fields go here -->
 
-</body>
- 
-        </br>
-        <a href=formspree.html#>To the top</a>
-        </br>
-        <a href="index.html">Return to my Assignment Directory Page</a>
+            <button type="submit">Send</button>
+
+            <br>
+            
+            </form>
+        </div>
+    </ul>
+
+    
+        <div class="footer">
+            <p>My Resume</p>
+            
+            <a href="/assets/HeavenlyMedinaResume.pdf" download>
+              <i class="fas fa-file-download fa-lg" aria-hidden="true"></i>
+            </a> 
+            <br>
+            <br>
+      
+            <a href = "https://open.spotify.com/user/havannarox?si=RlgCdSUVQCGmmvK1IvOWQA" target = "_blank" class="icons">
+              <i class="fab fa-spotify" aria-hidden="true"></i>
+            </a> 
+            <a href= "https://www.instagram.com/havannarox/" target = "_blank" class="icons"> 
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a> 
+      
+            <a href= "https://www.linkedin.com/in/heavenly-medina/" target = "_blank" class="icons"> 
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a> 
+      
+            <a href= "https://www.github.com/medinah2" target = "_blank" class="icons"> 
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a> 
+      
+            <br>
+            <small>&copy; 2021 Heavenly Medina</small> 
+      
+          </div>
         
     </body>
     
