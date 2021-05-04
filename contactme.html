@@ -53,8 +53,8 @@
     </header>
     
     <body>
-        <a id="top" name="top"></a>
-        <h1><a href="https://formspree.io/">Contact Me!</a></h1>
+        <!-- <a id="top" name="top"></a>
+        <h1><a href="https://formspree.io/">Contact Me!</a></h1> -->
 	<br>
 
 	<!-- modify this form HTML and place wherever you want your form -->
@@ -77,30 +77,26 @@
           <div class="inner">
 
             <form action="https://formspree.io/f/moqpobqy" method="POST">
-            <label>
-                Email:
-                
-            </label>
-            <br>
-            <input type="text" name="_replyto">
-            <br>
-            <br>
-            <label>
-                Message:
-                
-            </label>
-            <br>
-            <textarea name="message" oninput="auto_grow(this)"></textarea>
-            <br>
-            <!-- your other form fields go here -->
+                <label for="full-name">Name</label>
+                <br>
+                <input type="text" name="name" id="full-name" placeholder="your name..." required="">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="text" name="_replyto" placeholder="your email..." required=""> 
+                <br>
+                <label>Message</label>
+                <br>
+                <textarea name="message" oninput="auto_grow(this)" placeholder="your message..." required=""></textarea>
+                <br>
+                <!-- your other form fields go here -->
 
-            <button type="submit">Send</button>
+                <button type="submit">Send</button>
 
             <br>
             
             </form>
-        </div>
-	
+        </div>	
     </ul>
 
     
